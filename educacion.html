@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Hoja de Vida Digital</title>
+  </head>
+  <body>
+    <img src="images/logo.svg" alt="Logo Hoja de Vida" />
+    <h1>Hoja de Vida</h1>
+    <h2>Ulises Zavala Vera</h2>
+    <h3> Fecha de nacimiento: 20/03/1983 </h3>
+    <h3>Lugar de Nacimiento: Valparaiso, Chile</h3>
+    <nav>
+      <ul>
+          <li><a href="index.html">Inicio</li>
+          <li><a href="educacion.html">Educación<a/></li>
+          <li><a href="experiencia.html">Experiencia</a></li>
+      </ul>
+    <nav>
+    <h2>Educación</h2>
+    <table border="1" >
+      <thead>
+        <th>Año</th>
+        <th>Institución</th>
+        <th>Carrera</th>
+        <th>Lugar</th>
+        <th>¿Culminó?</th>
+     </thead>
+     <tr>
+       <td>2002-2007</td>
+       <td>Universidad de Playa Ancha</td>
+       <td>Ingeniería en Informática</td>
+       <td>Valparaiso</td>
+       <td>Si</td>
+     </tr>
+     <tr>
+       <td>2010-2012</td>
+       <td>Universidad de las Americas</td>
+       <td>Ingeniería en Industrial</td>
+       <td>Valparaiso</td>
+       <td>Si</td>
+     </tr>
+     <table>
+     <br/>
+
+     <form name="Agregar Estudios">
+       <h2>Agregar Estudios</h2>
+       <p><label for="anno">Año:</label>
+          <input list="annos">
+          <datalist id="annos">
+            <option value="2000"></option>
+            <option value="2001"></option>
+            <option value="2002"></option>
+            <option value="2003"></option>
+            <option value="2004"></option>
+            <option value="2005"></option>
+            <option value="2006"></option>
+            <option value="2007"></option>
+            <option value="2008"></option>
+            <option value="2009"></option>
+            <option value="2010"></option>
+            <option value="2011"></option>
+            <option value="2012"></option>
+            <option value="2013"></option>
+            <option value="2014"></option>
+            <option value="2015"></option>
+            <option value="2016"></option>
+            <option value="2017"></option>
+            <option value="2018"></option>
+          </datalist>
+       </p>
+       <p><label for="institucion">Institución:</label>
+          <input name="Institución" type="text" required>
+       </p>
+       <p><label for="carrera">Carrera:</label>
+          <input name="carrera" type="text">
+       </p>
+       <p><label for="lugar">Lugar:</label>
+          <input name="lugar" type="text">
+       </p>
+       <p><label for="culmino">¿Culminó?</label> Si<input type="radio" name="culmino">
+          No<input type="radio" name="culmino">
+       </p>
+       <input type="submit" name="Enviar">
+     </form>
+     <br/>
+     <br/>
+     <footer>
+         @Derechos Reservados
+
+       <ul>
+         <li><strong>Correo Electrónico:</strong><a href="mailto:uliseshans@gmail.com">uliseshans@gmail.com</a></li>
+         <li><strong>Teléfono:</strong> +56 9 79139871</li>
+         <li><strong>Redes Sociales:</strong><a href="http://www.facebook.com/uliseshans">www.facebook.com/uliseshans</a></li>
+       <ul>
+     </footer>
+ </html>
